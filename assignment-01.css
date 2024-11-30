@@ -1,0 +1,324 @@
+label 
+{
+   color: black;
+   background-color:white;
+   padding:15px;
+   border-radius: 50px;
+   font-size:200%;
+   align-items: center;
+   font-family:courier;
+   
+}
+button
+{ 
+    background-color: white;
+    border-radius: 50px;
+    border-color: white;
+    font-size:80%;
+}
+
+#red-button
+{
+    visibility:hidden;
+    display:flex;
+    height:150px;
+    width:0;
+    justify-content: center;
+    align-items: center;
+}
+
+#red-number
+{
+    visibility: visible;
+}
+
+/* ------------------------------------------ */
+
+.orange-button
+{
+    visibility:hidden;
+    display:flex;
+    height:90px;
+    justify-content: center;
+    align-items: center;
+}
+
+#orange-number
+{
+    visibility: visible;
+}
+
+/* ------------------------------------------ */
+
+.yellow-button
+{
+    visibility:hidden;
+    display:flex;
+    height:90px;
+    justify-content: center;
+    align-items: center;
+}
+#yellow-number
+{
+    visibility: visible;
+}
+
+/* ------------------------------------------ */
+
+.blue-button
+{
+    visibility:hidden;
+    display:flex;
+    height:90px;
+    justify-content: center;
+    align-items: center;
+}
+#blue-number
+{
+    visibility: visible;
+}
+
+/* ------------------------------------------ */
+
+.brown-button
+{
+    visibility:hidden;
+    display:flex;
+    height:90px;
+    justify-content: center;
+    align-items: center;
+}
+#brown-number
+{
+    visibility: visible;
+}
+
+/* ------------------------------------------ */
+
+.green-button
+{
+    visibility:hidden;
+    display:flex;
+    height:90px;
+    justify-content: center;
+    align-items: center;
+}
+#green-number
+{
+    visibility: visible;
+}
+
+/* ------------------------------------------ */
+
+.header
+{
+    position: relative;
+    top: 30px;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border:1px solid black;
+    border-radius:10px;
+    background-color: rgb(233, 233, 233); 
+    padding:5px;
+    width: 20%;
+    font-family:Courier;
+    font-size:25px;
+    text-align: center;
+}
+
+.container
+{
+    position:absolute;
+    top:15px;
+    width:30%;
+    border:1px solid black;
+    border-radius:10px;
+    background-color: rgb(233, 233, 233);
+    padding:5px;
+    font-family:Courier;
+    text-align: left;
+}
+
+.green-text
+{
+    background-color:#79C314;
+}
+.brown-text
+{
+    background-color:#c0611d;
+}
+.blue-text
+{
+    background-color:#487DE7;
+}
+.yellow-text
+{
+    background-color:#FAEB36;
+}
+.orange-text
+{
+    background-color:#FFA500;
+}
+.red-text
+{
+   background-color:#E81416;
+}
+
+body
+{
+    background-color: #ffffff;
+}
+
+#tip
+{
+    height:0;
+    width:0;
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 138px solid#E81416;
+
+    /*This centers my shape */
+    position: relative;
+    top: 60px; /* Move 50px down from the top*/
+    left: 50%; /* Move 50% from the left */
+    transform: translate(-50%, -50%); /* Center the shape */
+    transition: border-bottom 0.5s;
+
+}
+
+#tip:hover #red-button
+{
+    visibility: visible;
+}
+
+#tip:hover
+{
+    border-bottom: 138px solid #ff5d5f;
+}
+
+#orange-trapezoid 
+{
+    border-bottom: 90px solid #FFA500; 
+    border-left: 69px solid transparent;
+    border-right: 69px solid transparent;
+    height: 0;
+    width: 229px;
+
+    /*This centers my shape */
+    position: relative; 
+    top: 60px; /* Move 50px down from the top*/
+    left: 50%; /* Move 50% from the left */
+    transform: translate(-50%, -50%); /* Center the shape */
+    transition: border-bottom 0.5s;
+}
+
+#orange-trapezoid:hover .orange-button
+{
+    visibility: visible; 
+}
+#orange-trapezoid:hover
+{
+    border-bottom: 90px solid #ffc04a;
+}
+
+#yellow-trapezoid 
+{
+    border-bottom: 100px solid #FAEB36 ;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    height: 0;
+    width: 380px;
+
+    /*This centers my shape */
+    position: relative; 
+    top: 80px; /* Move 70px down from the top*/
+    left: 50%; /* Move 50% from the left */
+    transform: translate(-50%, -50%); /* Center the shape */
+    transition: border-bottom 0.5s;
+}
+
+#yellow-trapezoid:hover .yellow-button
+{
+    visibility: visible;
+}
+#yellow-trapezoid:hover
+{
+    border-bottom: 100px solid #fff582;
+}
+
+#blue-trapezoid 
+{
+    border-bottom: 100px solid#487DE7;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    height: 0;
+    width: 540px;
+
+    /*This centers my shape */
+    position: relative; 
+    top: 80px; /* Move 70px down from the top*/
+    left: 50%; /* Move 50% from the left */
+    transform: translate(-50%, -50%); /* Center the shape */
+    transition: border-bottom 0.5s;
+}
+
+#blue-trapezoid:hover .blue-button
+{
+    visibility: visible;
+}
+#blue-trapezoid:hover
+{
+    border-bottom: 100px solid #578fff;
+}
+
+
+#brown-trapezoid 
+{
+    border-bottom: 100px solid #c0611d;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    height:0;
+    width: 699px;
+
+    /*This centers my shape */
+    position: relative; 
+    top: 80px; /* Move 70px down from the top*/
+    left: 50%; /* Move 50% from the left */
+    transform: translate(-50%, -50%); /* Center the shape */
+    transition: border-bottom 0.5s;
+}
+
+#brown-trapezoid:hover .brown-button
+{
+    visibility: visible;
+}
+#brown-trapezoid:hover
+{
+    border-bottom: 100px solid #cd7434;
+}
+
+#green-trapezoid 
+{
+    border-bottom: 100px solid#79C314 ;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    transform: translate(-50%, -50%); /* Center the shape */
+    height:0;
+    width: 860px;
+
+    /*This centers my shape */
+    position: relative; 
+    top: 80px; /* Move 70px down from the top*/
+    left: 50%; /* Move 50% from the left */
+    transform: translate(-50%, -50%); /* Center the shape */
+    transition: border-bottom 0.5s;
+}
+
+#green-trapezoid:hover .green-button
+{
+    visibility: visible;
+}
+#green-trapezoid:hover 
+{
+    border-bottom: 100px solid#a2e04b;
+}

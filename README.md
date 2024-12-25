@@ -4,8 +4,8 @@ The assigned task was to develop an **Interactive Food Pyramid chart**.</br></br
 
 ## What to expect
  - By default, each section of the food pyramid is set to the amount required for each day in order to maintain a healthy, balanced diet.</br>
- - There also exists a guide describing what foods are included in each category.</br>
- - Users can record the number of foods consumed for any given day by interacting with the plus and minus buttons on a section of the pyramid.</br>
+ - A guide describing what foods are included in each category.</br>
+ - A user can record the number of foods consumed for any given day by interacting with the plus and minus buttons on a section of the pyramid.</br>
 
 ## Images
 </br>
